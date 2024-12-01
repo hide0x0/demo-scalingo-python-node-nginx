@@ -3,7 +3,7 @@ const app = express()
 const port = 8000
 
 app.get('/', (req, res) => {
-  res.send('Hello world from node, <a href="/python">clic here for python</a>')
+  res.send('<h1>Subdomain takeover By abir</h1>')
 })
 
 app.listen(port, () => {
